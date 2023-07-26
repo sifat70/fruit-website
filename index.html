@@ -24,7 +24,13 @@
                     colors: {
                         clifford: '#da373d',
                         'nav-bg': '#F85559',
-                    }
+                    },
+                    backgroundImage: {
+                    'hero-bg-1': "url('./images/banner1.png')",
+                    'hero-bg-2': "url('./images/banner2.png')",
+                    'hero-bg-3': "url('./images/banner3.png')",
+                    'hero-bg-4': "url('./images/banner4.png')",
+                  }
                 }
             }
         }
@@ -84,6 +90,73 @@
         </div>
 
         <!-- nav end -->
+
+        <!-- slider start -->
+        <section class="mt-5 ">
+            <div class="carousel w-full ">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <div class="hero min-h-screen bg-cover-overlay bg-hero-bg-1">
+                        <div class="hero-content text-center">
+                          <div class="max-w-md">
+                            <h1 class="text-5xl font-bold text-white">Exotic tastes at your doorstep</h1>
+                            <p class="py-6 text-white">We supply highly quality organic products</p>
+                            <button class="btn bg-nav-bg text-white">Shop Now</button>
+                          </div>
+                        </div>
+                      </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                    <div class="hero min-h-screen bg-cover-overlay bg-hero-bg-2">
+                        <div class="hero-content text-center">
+                          <div class="max-w-md">
+                            <h1 class="text-5xl font-bold text-white">Exotic tastes at your doorstep</h1>
+                            <p class="py-6 text-white">We supply highly quality organic products</p>
+                            <button class="btn bg-nav-bg text-white">Shop Now</button>
+                          </div>
+                        </div>
+                      </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                    <div class="hero min-h-screen bg-cover-overlay bg-hero-bg-3">
+                        <div class="hero-content text-center">
+                          <div class="max-w-md">
+                            <h1 class="text-5xl font-bold text-white">Exotic tastes at your doorstep</h1>
+                            <p class="py-6 text-white">We supply highly quality organic products</p>
+                            <button class="btn bg-nav-bg text-white">Shop Now</button>
+                          </div>
+                        </div>
+                      </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                    <div class="hero min-h-screen bg-cover-overlay bg-hero-bg-4">
+                        <div class="hero-content text-center">
+                          <div class="max-w-md">
+                            <h1 class="text-5xl font-bold text-white">Exotic tastes at your doorstep</h1>
+                            <p class="py-6 text-white">We supply highly quality organic products</p>
+                            <button class="btn bg-nav-bg text-white">Shop Now</button>
+                          </div>
+                        </div>
+                      </div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <!-- slider end -->
     </header>
     <main>
 
