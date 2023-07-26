@@ -70,27 +70,27 @@
                         <li><a>Item 3</a></li>
                     </ul>
                 </div>
-                <div class="navbar-start hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
-                        <li class="text-white"><a>Home</a></li>
-                        <li class="text-white"><a>About Us</a></li>
-                        <li class="text-white"><a>All Fruits</a></li>
-                    </ul>
+                <div class="navbar-start hidden lg:flex ml-4">
+                    <div class="menu menu-horizontal px-1 flex gap-5">
+                        <a class="text-white font-semibold">Home</a>
+                        <a class="text-white font-semibold">About Us</a>
+                        <a class="text-white font-semibold">All Fruits</a>
+                        <a class="text-white font-semibold">Shop</a>
+                    </div>
                 </div>
             </div>
             <div class="navbar-center">
-                <a class="btn btn-ghost normal-case text-xl">
-                    <img class="w-[54.517px] h-[40px]" src="./images/logo.png" alt="">
+                <a class="btn btn-ghost normal-case text-xl float-left">
+                    <img class="w-[44.517px] h-[40px]" src="./images/logo.png" alt="">
                     <p class="text-white">Fruit Burst</p>
                 </a>
             </div>
 
-            <div class="navbar-end">
-                <a class="btn">Button</a>
-                <!-- <input class="outline-none py-1 md:w-28 text-black" type="text" placeholder="Search here">
-                <i class="text-black fa-solid fa-magnifying-glass"></i> -->
-                <!-- <input class="md:w-[600px] lg:w-[320px] py-2 px-4 rounded-2xl cursor-pointer" type="search" name="" id="" placeholder="Search here">
-                    <span class="absolute right-4 top-2 cursor-pointer"><i class="fa-solid fa-magnifying-glass"></i></span> -->
+            <div class="navbar-end relative">
+                <input type="text" class="lg:block md:block hidden placeholder:pl-4 h-[40px] w-[300px] mr-10 rounded-full" placeholder="search here">
+                <div class="absolute mr-16 lg:block md:block hidden">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>           
             </div>
         </div>
 
@@ -105,8 +105,7 @@
                             <div class="max-w-md">
                                 <h1 class="text-5xl font-bold text-white">Exotic tastes at your doorstep</h1>
                                 <p class="py-6 text-white">We supply highly quality organic products</p>
-                                <button
-                                    class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-nav-bg text-white border-0">Shop Now</button>
+                                <button class="btn bg-nav-bg border-none text-white">Secondary</button>
                             </div>
                         </div>
                     </div>
