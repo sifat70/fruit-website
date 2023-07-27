@@ -48,9 +48,9 @@
     <header class="container mx-auto mt-3">
         <!-- nav start -->
         <div class="navbar bg-nav-bg rounded-full max-h-[120px]">
-            <div class="navbar-start">
-                <div class="dropdown">
-                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+            <div class="navbar-start relative">
+                <div class="dropdown absolute">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden pl-80">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -79,8 +79,8 @@
                     </div>
                 </div>
             </div>
-            <div class="navbar-center">
-                <a class="btn btn-ghost normal-case text-xl float-left">
+            <div class="lg:navbar-center">
+                <a class="btn btn-ghost normal-case text-xl ">
                     <img class="w-[44.517px] h-[40px]" src="./images/logo.png" alt="">
                     <p class="text-white">Fruit Burst</p>
                 </a>
@@ -193,14 +193,14 @@
         <!-- Deal of the day section start -->
         <section class="mt-10">
             <!-- title -->
-            <div class="flex justify-between lg:flex-row flex-col">
+            <div class="flex justify-between lg:flex-row text-center lg:text-left flex-col">
                 <div class="">
-                    <h1 class="font-extrabold text-3xl">Deal of the day</h1>
+                    <h1 class="font-extrabold text-3xl mb-2">Deal of the day</h1>
                     <p class="mt-4">Contrary to popular belief, is not simply random text. It has roots in a piece of
                         classical <br> Latin
                         literature from 45 BC, making it over 2000 years old.</p>
                 </div>
-                <div class="">
+                <div class="text-center lg:text-right">
                     <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
                         <div class="flex flex-col">
                             <span class="countdown font-mono text-5xl">
@@ -494,8 +494,8 @@
         <!-- Why Choose Us -->
         <section class="mt-[140px]">
             <div class="text-center space-y-6 pb-12">
-                <h3 class="text-fruit-color-3 text-4xl font-extrabold">Why Choose Us</h3>
-                <p class="text-fruit-color-2">Contrary to popular belief, is not simply random text. It has roots in a
+                <h3 class="text-4xl font-extrabold">Why Choose Us</h3>
+                <p class="">Contrary to popular belief, is not simply random text. It has roots in a
                     piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
 
@@ -508,9 +508,9 @@
                                 <img src="./images/icons/group.png" alt="">
                             </div>
                         </div>
-                        <div class="space-y-3">
+                        <div class="space-y-3 lg:text-left text-center">
                             <h4 class="text-2xl font-extrabold text-fruit-color-3">Dedicated Team</h4>
-                            <div class="w-1/4 border-b-2"></div>
+                            <div class="lg:w-1/4 border-b-2 w-1/4 lg:mx-0 mx-auto lg:border-b-2"></div>
                             <p>Professional are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                     </div>
@@ -520,9 +520,9 @@
                                 <img src="./images/icons/love.png" alt="">
                             </div>
                         </div>
-                        <div class="space-y-3">
+                        <div class="space-y-3 lg:text-left text-center">
                             <h4 class="text-2xl font-extrabold text-fruit-color-3">Fresh is Best</h4>
-                            <div class="w-1/4 border-b-2"></div>
+                            <div class="lg:w-1/4 border-b-2 w-1/4 lg:mx-0 mx-auto lg:border-b-2"></div>
                             <p>Professional are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                     </div>
@@ -532,9 +532,9 @@
                                 <img src="./images/icons/gift.png" alt="">
                             </div>
                         </div>
-                        <div class="space-y-3">
+                        <div class="space-y-3 lg:text-left text-center">
                             <h4 class="text-2xl font-extrabold text-fruit-color-3">Gift Certificates</h4>
-                            <div class="w-1/4 border-b-2"></div>
+                            <div class="lg:w-1/4 border-b-2 w-1/4 lg:mx-0 mx-auto lg:border-b-2"></div>
                             <p>Professional are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                     </div>
@@ -551,7 +551,7 @@
                                 <img src="./images/icons/fruit.png" alt="">
                             </div>
                         </div>
-                        <div class="space-y-3 text-right">
+                        <div class="space-y-3 lg:text-right text-center">
                             <h4 class="text-2xl font-extrabold text-fruit-color-3">Integrated Supplier</h4>
                             <div class="w-1/4 border-b-2 inline-block"></div>
                             <p>Professional are there for you to pick the most amazing and fresh fruits.</p>
@@ -563,7 +563,7 @@
                                 <img src="./images/icons/ice-cream.png" alt="">
                             </div>
                         </div>
-                        <div class="space-y-3 text-right">
+                        <div class="space-y-3 lg:text-right text-center">
                             <h4 class="text-2xl font-extrabold text-fruit-color-3">Sustainable Practice</h4>
                             <div class="w-1/4 border-b-2 inline-block"></div>
                             <p>Professional are there for you to pick the most amazing and fresh fruits.</p>
@@ -575,7 +575,7 @@
                                 <img src="./images/icons/like.png" alt="">
                             </div>
                         </div>
-                        <div class="space-y-3 text-right">
+                        <div class="space-y-3 lg:text-right text-center ">
                             <h4 class="text-2xl font-extrabold text-fruit-color-3">The Benefits Only</h4>
                             <div class="w-1/4 border-b-2 inline-block"></div>
                             <p>Professional are there for you to pick the most amazing and fresh fruits.</p>
